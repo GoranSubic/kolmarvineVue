@@ -1,0 +1,3 @@
+C:\Users\gsubi\workspaces\source\repos\JavaScript\EdukativniCentar\educationvue\obj\Debug\educationvue.njsprojAssemblyReference.cache
+C:\Users\gsubi\workspaces\source\repos\JavaScript\EdukativniCentar\educationvue\obj\Debug\educationvue.njsproj.CoreCompileInputs.cache
+C:\Users\gsubi\workspaces\source\repos\JavaScript\EdukativniCentar\educationvue\bin\Microsoft.NodejsTools.WebRole.dll
