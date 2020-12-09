@@ -6,15 +6,15 @@
                     <router-link class="navbar-brand" to="/">KolmarVine</router-link>
                 </div>
                 <ul class="nav navbar-nav">
-                    <li><router-link to="/">Home</router-link></li>
                     <li><router-link to="/about">O nama</router-link></li>
+                    <li><router-link to="/photos">Fotografije</router-link></li>
                     <li><router-link to="/downloads">Dokumenta</router-link></li>
-                    <li><router-link to="/contact">Contact</router-link></li>
+                    <li><router-link to="/contact">Kontakt</router-link></li>
                 </ul>
-                <ul class="nav navbar-nav navbar-right">
+                <!--<ul class="nav navbar-nav navbar-right">
                     <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
                     <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-                </ul>
+                </ul>-->
             </div>
         </nav>
     </div>

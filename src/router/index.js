@@ -2,6 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import Downloads from '../views/Downloads.vue'
+import Photos from '../views/Photos.vue'
 import Contact from '../views/Contact.vue'
 import SingleDocument from '../views/SingleDocument.vue'
 
@@ -17,6 +18,11 @@ const routes = [
         path: '/contact',
         name: 'Contact',
         component: Contact
+    },
+    {
+        path: '/photos',
+        name: 'Photos',
+        component: Photos
     },
     {
         path: '/downloads',

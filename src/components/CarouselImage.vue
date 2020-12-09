@@ -48,7 +48,7 @@
 
 <style scoped>
     .header {
-        height: 20vh;
+        height: 15vh;
         width: 100%;
         top: 50px;
         left: 0;
@@ -100,7 +100,7 @@
     }
 
     .header.slim {
-        height: 20vh !important;
+        height: 15vh !important;
     }
 
     /*#scrollelm {

@@ -66,7 +66,7 @@
     }
 
     #scrollelm {
-        margin: 40vh auto 0 auto;
+        margin: 30vh auto 0 auto;
         font-size: 1.5em;
         line-height: 1em;
     }
