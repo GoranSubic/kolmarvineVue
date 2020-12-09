@@ -114,7 +114,7 @@ export default {
 
 <style scoped>
     #scrollelm {
-        margin: 400px auto 0 auto;
+        margin: 50vh auto 0 auto;
         font-size: 1.5em;
         line-height: 1em;
     }
@@ -125,6 +125,6 @@ export default {
         padding-right: 20px;
         padding-bottom: 20px;
         padding-left: 20px;
-        background-color: #2e2e2e;
+        background-color: #2b3c54;
     }
 </style>

@@ -1,9 +1,9 @@
 <template>
     <div>
-        <nav class="navbar navbar-fixed-top navbar-inverse">
+        <nav class="navbar navbar-fixed-top navbar-inverse" style="background-color: #2b3c54;">
             <div class="container-fluid">
                 <div class="navbar-header">
-                    <router-link class="navbar-brand" to="/">Moja aplikacija</router-link>
+                    <router-link class="navbar-brand" to="/">KolmarVine</router-link>
                 </div>
                 <ul class="nav navbar-nav">
                     <li><router-link to="/">Home</router-link></li>
