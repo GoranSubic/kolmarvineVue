@@ -4,8 +4,8 @@
         <div class="header" id="headerimage" :style="headerHeight">
                 <h2>{{ pageTitle }}</h2>
                 <div class="subtitle" id="subtitleBox">
-                    <div class="sub1">{{ pageSubtitle1 }}</div>
-                    <div class="sub2">{{ pageSubtitle2 }}</div>
+                    <div class="sub1"><span>{{ pageSubtitle1 }}</span></div>
+                    <div class="sub2"><span>{{ pageSubtitle2 }}</span></div>
                 </div>
         </div>
     </div>
@@ -64,29 +64,35 @@
         transition-duration: 0.5s;
     }
 
-    .header h2 {
-        font-size: 50px;
-        color: #fff;
-        text-shadow: 3px 5px 5px black;
-        position: absolute;
-        top: 50%;
-        margin: -50px 0 0 100px;
-        left: 0;
-        right: 0;
-        text-align: left;
-    }
+        .header h2 {
+            font-size: 50px;
+            color: #ff0000;
+            -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+            -webkit-text-stroke-width: 3px;
+            -webkit-text-stroke-color: #ff0000;
+            /*color: #ff0000;*/
+            text-shadow: 3px 5px 5px #2b3c54;
+            position: absolute;
+            top: 50%;
+            margin: -50px 0 0 100px;
+            left: 0;
+            right: 0;
+            text-align: left;
+            font-weight: bold;
+        }
 
-    .header div.subtitle {
-        font-size: 35px;
-        color: #fff;
-        text-shadow: 3px 5px 5px black;
-        position: absolute;
-        top: 50%;
-        margin: 0 0 0 100px;
-        left: 0;
-        right: 0;
-        text-align: left;
-    }
+        .header div.subtitle {
+            font-size: 35px;
+            color: #2b3c54;
+            /*text-shadow: 3px 5px 5px black;*/
+            position: absolute;
+            top: 50%;
+            margin: 0 0 0 100px;
+            left: 0;
+            right: 0;
+            text-align: left;
+            font-weight: bold;
+        }
     .header #subtitleBox {
         overflow: hidden;
         transition: all .5s ease-in-out;
@@ -101,6 +107,10 @@
 
     .header.slim {
         height: 15vh !important;
+    }
+
+    .header #subtitleBox span {
+        background-color: white;
     }
 
     /*#scrollelm {

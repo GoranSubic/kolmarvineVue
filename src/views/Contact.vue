@@ -11,10 +11,13 @@
                         <div class="wpb_text_column wpb_content_element ">
                             <div class="wpb_wrapper">
 
-                                <p><b>Kolmarvine DOO</b></p>
+                                <p><b>Kolmar Vine</b></p>
+                                <p>Vlasnik: Daniel Vince</p>
                                 <p>Telefon: 064/101-97-90</p>
+                                <p>Email: kolmar.vine@gmail.com</p>
                                 <p>
                                     Adresa:<br>
+                                           <span>Bulevar Oslobođenja 35</span><br>
                                            <span>Janka Čmelika 125</span><br>
                                            <span>21000 Novi Sad</span><br>
                                            <span>Srbija</span>
@@ -57,9 +60,9 @@
         border: 0;
     }
 
-    .wpb_wrapper p {
+    /*.wpb_wrapper p {
         padding-bottom: 1.5em;
-    }
+    }*/
 
     .wpb_wrapper p span {
         padding-left: 4em;
