@@ -2,15 +2,18 @@
     <div id="app">
         <app-header></app-header>
         <router-view v-bind:downloads="downloads" />
+        <app-footer></app-footer>
     </div>
 </template>
 
 <script>
     import AppHeader from "@/components/AppHeader.vue"
+    import AppFooter from "@/components/AppFooter.vue"
 
     export default {
         components: {
-            AppHeader
+            AppHeader,
+            AppFooter,
         },
     data: function() {
         return {
@@ -66,16 +69,16 @@
   color: #2c3e50;
 }
 
-#nav {
+nav {
   padding: 30px;
 }
 
-#nav a {
-  font-weight: bold;
+a {
+  /*font-weight: bold;*/
   color: #2c3e50;
 }
 
-#nav a.router-link-exact-active {
+a.router-link-exact-active {
   color: #42b983;
 }
 </style>
