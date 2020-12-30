@@ -7,24 +7,40 @@
                 <div class="col-md-12 content">
                     <h1>Kontakt stranica</h1>
 
-                    <div class="wpb_wrapper">
+                    <div class="wpb_wrapper col col-xs-12 col-sm-6">
                         <div class="wpb_text_column wpb_content_element ">
                             <div class="wpb_wrapper">
 
-                                <p><b>Kolmar Vine</b></p>
-                                <p>Vlasnik: Daniel Vince</p>
-                                <p>Telefon: 064/101-97-90</p>
-                                <p>Email: kolmar.vine@gmail.com</p>
-                                <p>
-                                    Adresa:<br>
-                                           <span>Bulevar Oslobođenja 35</span><br>
-                                           <span>Janka Čmelika 125</span><br>
-                                           <span>21000 Novi Sad</span><br>
-                                           <span>Srbija</span>
-                                </p>
-                                <p>
-                                    Radno vreme: Pon-Ned 24h
-                                </p>
+                                <address>
+                                    <p><b>Kolmar Vine</b></p>
+                                    <p>Vlasnik: Daniel Vince</p>
+                                    <p>Telefon: <a href="tel:+381641019790">064/101-97-90</a></p>
+                                    <p>Email: <a href="mailto:kolmar.vine@gmail.com">kolmar.vine@gmail.com</a></p>
+                                    <p>
+                                        Adresa:<br>
+                                        <span>Bulevar Oslobođenja 35</span><br>
+                                        <span>Janka Čmelika 125</span><br>
+                                        <span>21000 Novi Sad</span><br>
+                                        <span>Srbija</span>
+                                    </p>
+                                    <p>
+                                        Radno vreme: Pon-Ned 24h
+                                    </p>
+                                </address>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="wpb_wrapper col col-xs-12 col-sm-6">
+                        <div class="wpb_text_column wpb_content_element ">
+                            <div class="wpb_wrapper">
+
+                                <p><b>Pronađite nas</b></p>
+                                <GmapMap :center="center"
+                                         :zoom="14">
+                                    <GmapMarker :position="markerPosition" />
+                                </GmapMap>
+                                
                             </div>
                         </div>
                     </div>
@@ -41,6 +57,18 @@
         name: "Contact",
         components: {
             CarouselImage
+        },
+        data() {
+            return {
+                center: {
+                    lat: 45.2605,
+                    lng: 19.8326
+                },
+                markerPosition: {
+                    lat: 45.2605,
+                    lng: 19.8326
+                }
+            }
         }
     }
 </script>
@@ -74,5 +102,8 @@
         line-height: 1em;
     }
 
+    .vue-map-container {
+        height: 300px;
+    }
 </style>
 
