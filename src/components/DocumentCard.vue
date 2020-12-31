@@ -1,7 +1,7 @@
 <template>
     <div :class="'panel ' + panelColor">
         <div class="panel-heading">
-            <router-link v-bind:to="'/document/' + document.id">
+            <router-link v-bind:to="'/dokument/' + document.id">
                 <h4>Pregledaj: {{document.name}}</h4>
             </router-link>
         </div>

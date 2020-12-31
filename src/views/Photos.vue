@@ -19,6 +19,10 @@
 
     export default {
         name: 'Photos',
+        metaInfo: {
+            // title will be injected into parent titleTemplate
+            title: 'Fotografije'
+        },
         data() {
             return {
                 width: 600,

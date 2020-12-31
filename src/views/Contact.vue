@@ -1,10 +1,10 @@
 <template>
     <div class="contact container" id="parentScrollelm">
-        <carousel-image pageTitle="Kontaktirajte nas u svako doba dana"
+        <carousel-image pageTitle="Kontakt stranica"
                         ></carousel-image>
         <div id="scrollelm">
             <div class="content">
-                <h1>Kontakt stranica</h1>
+                <h2>Kontaktirajte nas u svako doba dana</h2>
                 <div class="row">
                     <div class="wpb_wrapper col-12 col-md-6">
                         <address>
@@ -43,6 +43,24 @@
     import CarouselImage from "@/components/CarouselImage.vue"
     export default {
         name: "Contact",
+        metaInfo() {
+            return {
+                // title will be injected into parent titleTemplate
+                title: 'Kontakt',
+                meta: [
+                    {
+                        name: 'description',
+                        content: `<address>
+                            <p><b>Kolmar Vine</b></p>
+                            <p>Vlasnik: Daniel Vince</p>
+                            <p>Telefon: <a href="tel:+381641019790">064/101-97-90</a></p>
+                            <p>Email: <a href="mailto:kolmar.vine@gmail.com">kolmar.vine@gmail.com</a></p>
+                            <p> Radno vreme: Pon-Ned 24h </p>
+                                </address>`,
+                    }
+                ]
+            }
+        },
         components: {
             CarouselImage
         },
@@ -75,10 +93,6 @@
         margin: 30px 0 30px 0;
         border: 0;
     }
-
-    /*.wpb_wrapper p {
-        padding-bottom: 1.5em;
-    }*/
 
     .wpb_wrapper p span {
         padding-left: 4em;

@@ -1,4 +1,4 @@
-# educationvue
+# KolmarVine
 
 ## Project setup
 ```

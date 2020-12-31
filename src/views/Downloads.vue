@@ -19,6 +19,10 @@
 
     export default {
         name: 'Downloads',
+        metaInfo: {
+            // title will be injected into parent titleTemplate
+            title: 'Dokumenta'
+        },
         props: {
             downloads: Array
         },

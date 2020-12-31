@@ -2,11 +2,13 @@
     <div @scroll="scrollMe">
         <!--<div id="scrollcounter">0px</div>-->
         <div class="header" id="headerimage" :style="headerHeight">
-                <h2>{{ pageTitle }}</h2>
+            <div class="headertext">
+                <h1>{{ pageTitle }}</h1>
                 <div class="subtitle" id="subtitleBox">
                     <div class="sub1"><span>{{ pageSubtitle1 }}</span></div>
                     <div class="sub2"><span>{{ pageSubtitle2 }}</span></div>
                 </div>
+            </div>
         </div>
     </div>
 </template>
@@ -64,7 +66,12 @@
         transition-duration: 0.5s;
     }
 
-        .header h2 {
+        .header .headertext {
+            position: absolute;
+            top: 50%;
+        }
+
+        .header h2, .header h1 {
             font-size: 50px;
             color: #ff0000;
             -webkit-text-fill-color: white; /* Will override color (regardless of order) */
@@ -72,9 +79,7 @@
             -webkit-text-stroke-color: #ff0000;
             /*color: #ff0000;*/
             text-shadow: 3px 5px 5px #2b3c54;
-            position: absolute;
-            top: 50%;
-            margin: -50px 0 0 100px;
+            margin: -50px 0 10px 100px;
             left: 0;
             right: 0;
             text-align: left;
@@ -85,9 +90,7 @@
             font-size: 35px;
             color: #2b3c54;
             /*text-shadow: 3px 5px 5px black;*/
-            position: absolute;
-            top: 50%;
-            margin: 0 0 0 100px;
+            margin: 10px 0 0 100px;
             left: 0;
             right: 0;
             text-align: left;

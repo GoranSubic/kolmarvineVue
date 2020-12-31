@@ -8,24 +8,24 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <router-link to="/about">O nama</router-link>    
+                    <router-link to="/onama">O nama</router-link>    
                 </li>
                 <li class="nav-item">
-                    <router-link to="/photos">Fotografije</router-link>
+                    <router-link to="/fotografije">Fotografije</router-link>
                 </li>
                 <li class="nav-item">
-                    <router-link to="/downloads">Dokumenta</router-link>
+                    <router-link to="/dokumenta">Dokumenta</router-link>
                 </li>
                 <li class="nav-item">
-                    <router-link to="/contact">Kontakt</router-link>
+                    <router-link to="/kontakt">Kontakt</router-link>
                 </li>
             </ul>
             <ul class="navbar-nav nav-flex-icons">
                 <li class="nav-item">
-                    <a href="https://www.facebook.com/olalazr/" target="_blank" class="nav-link"><i class="fab fa-facebook"> </i></a>
+                    <a href="https://www.facebook.com/liftovikolmar.vine/" target="_blank" class="nav-link"><i class="fab fa-facebook"> </i></a>
                 </li>
                 <li class="nav-item">
-                    <a href="https://www.instagram.com/olalazrenjanin/" target="_blank" class="nav-link"><i class="fab fa-instagram"> </i></a>
+                    <a href="https://www.instagram.com/" target="_blank" class="nav-link"><i class="fab fa-instagram"> </i></a>
                 </li>
             </ul>
         </div>
@@ -76,7 +76,7 @@
         margin-left: 50px;
     }
     #navbarSupportedContent li {
-        margin-left: 10px;
+        margin-left: 30px;
     }
 
     .footer {
