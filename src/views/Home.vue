@@ -41,7 +41,7 @@
         },
         metaInfo() {
             return {
-                title: 'Kolmar Vine Liftovi',
+                title: 'Lift, servis, remont | Kolmar Vine Liftovi',
                 // override the parent template and just use the above title only
                 titleTemplate: null,
                 meta: [

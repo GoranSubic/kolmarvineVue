@@ -1,0 +1,22 @@
+postdata: 
+{
+	{
+		id: 0,
+		body: "Kolmar Vine liftovi su orijentisani ka modernizaciji i remontu svih tipova liftova. Radimo montažu novih i servis postojećih. Usluge montaže i popravke lifta pružamo kako krajnjim korisnicima tako i drugim preduzećima za održavanje. Ako je lift zastareo i nema mogućnosti zamene novim pružamo usluge radova na modernizaciji i remontu.",
+	},
+	{
+		id: 1,
+		body: `Kod modernizacije liftova nudimo usluge zamene kabine sa ugradnjom automatskih vrata. 
+						Zamena komandnog ormana sa kompletnom elektroinstalacijom i pozivima.
+						Zamena dotrajalih automatskih vrata kao i ugradnju novih na postojeće kabine.
+						Sva oprema koja se ugrađuje je proverenog kvaliteta i namenski prilagođena postojećem objektu.`
+	},
+	{
+		id: 2,
+		body: "Dajemo savete klijentima oko odabira najboljeg rešenja za postojeći objekat. Budite slobodni da nas kontaktirate.",
+	},
+	{
+		id: 3,
+		body: "Stambenim zajednicama dajemo mogućnost odloženog plaćanja za veće radove.",
+	},
+},

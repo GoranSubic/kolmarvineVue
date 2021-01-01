@@ -1,7 +1,12 @@
 <template>
     <div id="app">
         <app-header></app-header>
-        <router-view v-bind:downloads="downloads" v-bind:postdata="postdata" />
+        <router-view 
+                     v-bind:downloads="downloads" 
+                     v-bind:postdata="postdata" 
+                     v-bind:referbuildings="refer_buildings" 
+                     v-bind:referfirms="refer_firms" 
+        />
         <app-footer></app-footer>
     </div>
 </template>
@@ -42,6 +47,140 @@
                     {
                         id: 3,
                         body: "Stambenim zajednicama dajemo mogućnost odloženog plaćanja za veće radove.",
+                    },
+                ],
+                refer_buildings: [
+                    {
+                        id: 0,
+                        title: "Bulevar Oslobođenja 35",
+                        work: "zamena kabine"
+                    },
+                    {
+                        id: 1,
+                        title: "Bulevar Oslobođenja 37",
+                        work: "komanda i kabina"
+                    },
+                    {
+                        id: 2,
+                        title: "Bulevar Oslobođenja 145",
+                        work: "komanda i kabina"
+                    },
+                    {
+                        id: 3,
+                        title: "Bulevar Oslobođenja 149",
+                        work: "zamena kabine"
+                    },
+                    {
+                        id: 4,
+                        title: "Bulevar Oslobođenja 151",
+                        work: "zamena kabine"
+                    },
+                    {
+                        id: 5,
+                        title: "Bulevar Oslobođenja 66a",
+                        work: "ugradnja bus vrata"
+                    },
+                    {
+                        id: 6,
+                        title: "Cara Lazara 83",
+                        work: "komanda i kabina"
+                    },
+                    {
+                        id: 7,
+                        title: "Cankareva 13",
+                        work: "zamena automatskih vrata"
+                    },
+                    {
+                        id: 8,
+                        title: "Cara Dušana 57",
+                        work: "zamena komande"
+                    },
+                    {
+                        id: 9,
+                        title: "Cara Dušana 82",
+                        work: "zamena komande"
+                    },
+                    {
+                        id: 10,
+                        title: "Ilija Ognjanovića 4",
+                        work: "zamena komande i ugradnja bus vrata"
+                    },
+                    {
+                        id: 11,
+                        title: "Kraljevića Marka 20",
+                        work: "zamena automatskih vrata"
+                    },
+                    {
+                        id: 12,
+                        title: "Kraljevića Marka 60",
+                        work: "zamena komande"
+                    },
+                    {
+                        id: 13,
+                        title: "Hadži Ruvimova 51",
+                        work: "zamena komande i automatskih vrata"
+                    },
+                    {
+                        id: 14,
+                        title: "Slovačka 15",
+                        work: "zamena automatskih vrata"
+                    },
+                    {
+                        id: 15,
+                        title: "Turgenjeva 15",
+                        work: "zamena komande i ugradnja automatskih vrata"
+                    },
+                    {
+                        id: 16,
+                        title: "Jovana Subitića 15",
+                        work: "zamena komande i automatskih vrata"
+                    },
+                    {
+                        id: 17,
+                        title: "Rumenačka 43",
+                        work: "zamena komande i automatskih vrata"
+                    },
+                    {
+                        id: 18,
+                        title: "Braće Dronjak 7",
+                        work: "zamena komande i ugradnja bus vrata"
+                    },
+                    {
+                        id: 19,
+                        title: "Maksima Gorkog 1",
+                        work: "zamena prilaznih vrata"
+                    },
+                    {
+                        id: 20,
+                        title: "Maksima Gorkog 1a",
+                        work: "zamena komande"
+                    },
+                    {
+                        id: 21,
+                        title: "Žarka Vasiljevića 18",
+                        work: "zamena komande"
+                    },
+                    {
+                        id: 22,
+                        title: "Kosančić Ivana 8",
+                        work: "zamena komande"
+                    },
+                ],
+                refer_firms: [
+                    {
+                        id: 0,
+                        title: "Biospringer Senta",
+                        work: "zamena komande"
+                    },
+                    {
+                        id: 1,
+                        title: "Agrovojvodina Novi Sad",
+                        work: "zamena komande"
+                    },
+                    {
+                        id: 2,
+                        title: "TDM Voće Bačka Palanka",
+                        work: "zamena komande"
                     },
                 ],
                 downloads: [

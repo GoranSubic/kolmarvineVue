@@ -30,14 +30,14 @@
                 responsive: true,
                 disableImageClick: false,
                 items: [{
-                    src: 'https://picsum.photos/600/400/?image=0',
-                    thumbnail: 'https://picsum.photos/64/64/?image=0',
+                    src: require(`@/assets/images/gallery/lift11.jpg`),
+                    thumbnail: require('@/assets/images/gallery/lift11.jpg'),
                     caption: 'Some Caption',
                     id: 'someid1'
                 },
                 {
-                    src: 'https://picsum.photos/600/400/?image=10',
-                    thumbnail: 'https://picsum.photos/64/64/?image=10'
+                    src: require(`@/assets/images/gallery/lift12.jpg`),
+                    thumbnail: require('@/assets/images/gallery/lift12.jpg'),
                 },
                 {
                     id: 'someid1', src: 'https://picsum.photos/600/400/?image=20',

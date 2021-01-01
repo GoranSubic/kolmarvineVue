@@ -1,0 +1,30 @@
+items: 
+{
+	{
+		src: require(`@/assets/images/gallery/lift11.jpg`),
+		thumbnail: require('@/assets/images/gallery/lift11.jpg'),
+		caption: 'Some Caption',
+		id: 'someid1'
+	},
+	{
+		src: require(`@/assets/images/gallery/lift12.jpg`),
+		thumbnail: require('@/assets/images/gallery/lift12.jpg'),
+	},
+	{
+		id: 'someid1', src: 'https://picsum.photos/600/400/?image=20',
+		thumbnail: 'https://picsum.photos/64/64/?image=20',
+		alt: 'Some alt text',
+		caption: 'Some Caption'
+	},
+	{
+		id: 'someid2', src: 'https://picsum.photos/600/400/?image=30',
+		thumbnail: 'https://picsum.photos/64/64/?image=30',
+		alt: 'Another alt text',
+		caption: 'Another Caption'
+	},
+	{
+		id: 'someid3', src: 'https://picsum.photos/400/600/?image=50',
+		thumbnail: 'https://picsum.photos/64/64/?image=50'
+	}
+	//currentId: null
+}

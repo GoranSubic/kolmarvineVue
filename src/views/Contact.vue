@@ -50,13 +50,11 @@
                 meta: [
                     {
                         name: 'description',
-                        content: `<address>
-                            <p><b>Kolmar Vine</b></p>
-                            <p>Vlasnik: Daniel Vince</p>
-                            <p>Telefon: <a href="tel:+381641019790">064/101-97-90</a></p>
-                            <p>Email: <a href="mailto:kolmar.vine@gmail.com">kolmar.vine@gmail.com</a></p>
-                            <p> Radno vreme: Pon-Ned 24h </p>
-                                </address>`,
+                        content: `Kolmar Vine Liftovi
+                            Vlasnik: Daniel Vince
+                            Telefon: 064/101-97-90
+                            Email: kolmar.vine@gmail.com
+                            Radno vreme: Pon-Ned 24h`,
                     }
                 ]
             }

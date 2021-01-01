@@ -25,251 +25,28 @@
                     <div class="wpb_content_element">
                         <div class="wpb_wrapper">
                             <h2>Reference</h2>
-                            <ul>
-                                <li style="text-align: justify;">
-                                    <span style="color: #ffffff;">
-                                        <h3>Stambene zajednice:</h3>
-                                    </span>
-                                </li>
+                            <h3 v-if="referbuildings.length">Stambene zajednice:</h3>
+                            <ul v-for="building in referbuildings" v-bind:key="building.id">
                                 <li style="text-align: justify;">
                                     <span style="color: #ffffff;">
                                         <span class="col-12 col-sm-6 col-md-6">
-                                            Bulevar Oslobođenja 35
-                                        </span><span class="workdesc col-12 col-sm-6 col-md-6">
-                                            zamena komande
+                                            {{building.title}}
                                         </span>
-                                    </span>
-                                </li>
-                                <li style="text-align: justify;">
-                                    <span style="color: #ffffff;">
-                                        <span class="col-12 col-sm-6 col-md-6">
-                                            Bulevar Oslobođenja 37
-                                        </span><span class="workdesc col-12 col-sm-6 col-md-6">
-                                            komanda i kabina
-                                        </span>
-                                    </span>
-                                </li>
-                                <li style="text-align: justify;">
-                                    <span style="color: #ffffff;">
-                                        <span class="col-12 col-sm-6 col-md-6">
-                                            Bulevar Oslobođenja 145
-                                        </span><span class="workdesc col-12 col-sm-6 col-md-6">
-                                            komanda i kabina
-                                        </span>
-                                    </span>
-                                </li>
-                                <li style="text-align: justify;">
-                                    <span style="color: #ffffff;">
-                                        <span class="col-12 col-sm-6 col-md-6">
-                                            Bulevar Oslobođenja 149
-                                        </span><span class="workdesc col-12 col-sm-6 col-md-6">
-                                            zamena komande
-                                        </span>
-                                    </span>
-                                </li>
-                                <li style="text-align: justify;">
-                                    <span style="color: #ffffff;">
-                                        <span class="col-12 col-sm-6 col-md-6">
-                                            Bulevar Oslobođenja 151
-                                        </span><span class="workdesc col-12 col-sm-6 col-md-6">
-                                            zamena komande
-                                        </span>
-                                    </span>
-                                </li>
-                                <li style="text-align: justify;">
-                                    <span style="color: #ffffff;">
-                                        <span class="col-12 col-sm-6 col-md-6">
-                                            Bulevar Oslobođenja 66a
-                                        </span><span class="workdesc col-12 col-sm-6 col-md-6">
-                                            ugradnja bus vrata
-                                        </span>
-                                    </span>
-                                </li>
-                                <li style="text-align: justify;">
-                                    <span style="color: #ffffff;">
-                                        <span class="col-12 col-sm-6 col-md-6">
-                                            Cara Lazara 83
-                                        </span><span class="workdesc col-12 col-sm-6 col-md-6">
-                                            komanda i kabina
-                                        </span>
-                                    </span>
-                                </li>
-                                <li style="text-align: justify;">
-                                    <span style="color: #ffffff;">
-                                        <span class="col-12 col-sm-6 col-md-6">
-                                            Cankareva 13
-                                        </span><span class="workdesc col-12 col-sm-6 col-md-6">
-                                            zamena automatskih vrata
-                                        </span>
-                                    </span>
-                                </li>
-                                <li style="text-align: justify;">
-                                    <span style="color: #ffffff;">
-                                        <span class="col-12 col-sm-6 col-md-6">
-                                            Cara Dušana 57
-                                        </span><span class="workdesc col-12 col-sm-6 col-md-6">
-                                            zamena komande
-                                        </span>
-                                    </span>
-                                </li>
-                                <li style="text-align: justify;">
-                                    <span style="color: #ffffff;">
-                                        <span class="col-12 col-sm-6 col-md-6">
-                                            Cara Dušana 82
-                                        </span><span class="workdesc col-12 col-sm-6 col-md-6">
-                                            zamena komande
-                                        </span>
-                                    </span>
-                                </li>
-                                <li style="text-align: justify;">
-                                    <span style="color: #ffffff;">
-                                        <span class="col-12 col-sm-6 col-md-6">
-                                            Ilija Ognjanovića 4
-                                        </span><span class="workdesc col-12 col-sm-6 col-md-6">
-                                            zamena komande i ugradnja bus vrata
-                                        </span>
-                                    </span>
-                                </li>
-                                <li style="text-align: justify;">
-                                    <span style="color: #ffffff;">
-                                        <span class="col-12 col-sm-6 col-md-6">
-                                            Kraljevića Marka 20
-                                        </span><span class="workdesc col-12 col-sm-6 col-md-6">
-                                            zamena automatskih vrata
-                                        </span>
-                                    </span>
-                                </li>
-                                <li style="text-align: justify;">
-                                    <span style="color: #ffffff;">
-                                        <span class="col-12 col-sm-6 col-md-6">
-                                            Kraljevića Marka 60
-                                        </span><span class="workdesc col-12 col-sm-6 col-md-6">
-                                            zamena komande
-                                        </span>
-                                    </span>
-                                </li>
-                                <li style="text-align: justify;">
-                                    <span style="color: #ffffff;">
-                                        <span class="col-12 col-sm-6 col-md-6">
-                                            Hadži Ruvimova 51
-                                        </span><span class="workdesc col-12 col-sm-6 col-md-6">
-                                            zamena komande i automatskih vrata
-                                        </span>
-                                    </span>
-                                </li>
-                                <li style="text-align: justify;">
-                                    <span style="color: #ffffff;">
-                                        <span class="col-12 col-sm-6 col-md-6">
-                                            Slovačka 15
-                                        </span><span class="workdesc col-12 col-sm-6 col-md-6">
-                                            zamena automatskih vrata
-                                        </span>
-                                    </span>
-                                </li>
-                                <li style="text-align: justify;">
-                                    <span style="color: #ffffff;">
-                                        <span class="col-12 col-sm-6 col-md-6">
-                                            Turgenjeva 15
-                                        </span><span class="workdesc col-12 col-sm-6 col-md-6">
-                                            zamena komande i ugradnja automatskih vrata
-                                        </span>
-                                    </span>
-                                </li>
-                                <li style="text-align: justify;">
-                                    <span style="color: #ffffff;">
-                                        <span class="col-12 col-sm-6 col-md-6">
-                                            Jovana Subitića 15
-                                        </span><span class="workdesc col-12 col-sm-6 col-md-6">
-                                            zamena komande i automatskih vrata
-                                        </span>
-                                    </span>
-                                </li>
-                                <li style="text-align: justify;">
-                                    <span style="color: #ffffff;">
-                                        <span class="col-12 col-sm-6 col-md-6">
-                                            Rumenačka 43
-                                        </span><span class="workdesc col-12 col-sm-6 col-md-6">
-                                            zamena komande i automatskih vrata
-                                        </span>
-                                    </span>
-                                </li>
-                                <li style="text-align: justify;">
-                                    <span style="color: #ffffff;">
-                                        <span class="col-12 col-sm-6 col-md-6">
-                                            Braće Dronjak 7
-                                        </span><span class="workdesc col-12 col-sm-6 col-md-6">
-                                            zamena komande i ugradnja bus vrata
-                                        </span>
-                                    </span>
-                                </li>
-                                <li style="text-align: justify;">
-                                    <span style="color: #ffffff;">
-                                        <span class="col-12 col-sm-6 col-md-6">
-                                            Maksima Gorkog 1
-                                        </span><span class="workdesc col-12 col-sm-6 col-md-6">
-                                            zamena prilaznih vrata
-                                        </span>
-                                    </span>
-                                </li>
-                                <li style="text-align: justify;">
-                                    <span style="color: #ffffff;">
-                                        <span class="col-12 col-sm-6 col-md-6">
-                                            Maksima Gorkog 1a
-                                        </span><span class="workdesc col-12 col-sm-6 col-md-6">
-                                            zamena komande
-                                        </span>
-                                    </span>
-                                </li>
-                                <li style="text-align: justify;">
-                                    <span style="color: #ffffff;">
-                                        <span class="col-12 col-sm-6 col-md-6">
-                                            Žarka Vasiljevića 18
-                                        </span><span class="workdesc col-12 col-sm-6 col-md-6">
-                                            zamena komande
-                                        </span>
-                                    </span>
-                                </li>
-                                <li style="text-align: justify;">
-                                    <span style="color: #ffffff;">
-                                        <span class="col-12 col-sm-6 col-md-6">
-                                            Kosančić Ivana 8
-                                        </span><span class="workdesc col-12 col-sm-6 col-md-6">
-                                            zamena komande
+                                        <span class="workdesc col-12 col-sm-6 col-md-6">
+                                            {{building.work}}
                                         </span>
                                     </span>
                                 </li>
                             </ul>
 
-                            <ul>
-                                <li style="text-align: justify;">
-                                    <span style="color: #ffffff;">
-                                        <h3>Poslovni objekti:</h3>
-                                    </span>
-                                </li>
+                            <h3 v-if="referfirms.length">Poslovni objekti:</h3>
+                            <ul v-for="firm in referfirms" v-bind:key="firm.id">
                                 <li style="text-align: justify;">
                                     <span style="color: #ffffff;">
                                         <span class="col-12 col-sm-6 col-md-6">
-                                            Biospringer Senta
+                                            {{firm.title}}
                                         </span><span class="workdesc col-12 col-sm-6 col-md-6">
-                                            zamena komande
-                                        </span>
-                                    </span>
-                                </li>
-                                <li style="text-align: justify;">
-                                    <span style="color: #ffffff;">
-                                        <span class="col-12 col-sm-6 col-md-6">
-                                            Agrovojvodina Novi Sad
-                                        </span><span class="workdesc col-12 col-sm-6 col-md-6">
-                                            zamena komande
-                                        </span>
-                                    </span>
-                                </li>
-                                <li style="text-align: justify;">
-                                    <span style="color: #ffffff;">
-                                        <span class="col-12 col-sm-6 col-md-6">
-                                            TDM Voće Bačka Palanka
-                                        </span><span class="workdesc col-12 col-sm-6 col-md-6">
-                                            zamena komande
+                                            {{firm.work}}
                                         </span>
                                     </span>
                                 </li>
@@ -301,6 +78,10 @@
                 ]
             }
         },
+        props: {
+            referbuildings: Array,
+            referfirms: Array
+        },
         components: {
             CarouselImage
         }
@@ -322,6 +103,12 @@
     h2 {
         color: white;
         text-align: left;
+    }
+    
+    h3 {
+        color: white;
+        text-align: left;
+        margin-left: 10px;
     }
 
     ul {
