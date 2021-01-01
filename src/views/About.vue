@@ -7,15 +7,10 @@
                     <div class="wpb_content_element">
                         <div class="wpb_wrapper">
                             <h2>O firmi</h2>
-                            <ul>
+                            <ul v-for="about in aboutdata" v-bind:key="about.id">
                                 <li style="text-align: justify;">
                                     <span style="color: #ffffff;">
-                                        Kolmar Vine je preduzeće koje je osnovano od strane Vince Daniela, preduzetnika i izvođača radova sa dugogodišnjim iskustvom u radu na liftovima.
-                                    </span>
-                                </li>
-                                <li style="text-align: justify;">
-                                    <span style="color: #ffffff;">
-                                        Mi smo malo preduzeće sa velikim potencijalom što potvrđuje veliki broj zadovoljnih klijenata.
+                                        {{about.info}}
                                     </span>
                                 </li>
                             </ul>
@@ -79,6 +74,7 @@
             }
         },
         props: {
+            aboutdata: Array,
             referbuildings: Array,
             referfirms: Array
         },

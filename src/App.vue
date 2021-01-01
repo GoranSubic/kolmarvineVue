@@ -4,6 +4,7 @@
         <router-view 
                      v-bind:downloads="downloads" 
                      v-bind:postdata="postdata" 
+                     v-bind:aboutdata="about_data" 
                      v-bind:referbuildings="refer_buildings" 
                      v-bind:referfirms="refer_firms" 
         />
@@ -47,6 +48,16 @@
                     {
                         id: 3,
                         body: "Stambenim zajednicama dajemo mogućnost odloženog plaćanja za veće radove.",
+                    },
+                ],
+                about_data: [
+                    {
+                        id: 0,
+                        info: "Kolmar Vine je preduzeće koje je osnovano od strane Vince Daniela, preduzetnika i izvođača radova sa dugogodišnjim iskustvom u radu na liftovima.",
+                    },
+                    {
+                        id: 1,
+                        info: "Mi smo malo preduzeće sa velikim potencijalom što potvrđuje veliki broj zadovoljnih klijenata.",
                     },
                 ],
                 refer_buildings: [
