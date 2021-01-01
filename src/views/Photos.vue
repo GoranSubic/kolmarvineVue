@@ -44,33 +44,43 @@
                 height: 400,
                 responsive: true,
                 disableImageClick: false,
-                items: [{
-                    src: require(`@/assets/images/gallery/lift11.jpg`),
-                    thumbnail: require('@/assets/images/gallery/lift11.jpg'),
-                    caption: 'Some Caption',
-                    id: 'someid1'
-                },
-                {
-                    src: require(`@/assets/images/gallery/lift12.jpg`),
-                    thumbnail: require('@/assets/images/gallery/lift12.jpg'),
-                },
-                {
-                    id: 'someid1', src: 'https://picsum.photos/600/400/?image=20',
-                    thumbnail: 'https://picsum.photos/64/64/?image=20',
-                    alt: 'Some alt text',
-                    caption: 'Some Caption'
-                },
-                {
-                    id: 'someid2', src: 'https://picsum.photos/600/400/?image=30',
-                    thumbnail: 'https://picsum.photos/64/64/?image=30',
-                    alt: 'Another alt text',
-                    caption: 'Another Caption'
-                },
-                {
-                    id: 'someid3', src: 'https://picsum.photos/400/600/?image=50',
-                    thumbnail: 'https://picsum.photos/64/64/?image=50'
-                }
-                //currentId: null
+                items: [
+                    {
+                        id: '0',
+                        src: require(`@/assets/images/gallery/lift1.jpg`),
+                        thumbnail: require('@/assets/images/gallery/lift1.jpg'),
+                        alt: 'Zamena kabine, komande i kompletne el instalacije',
+                        caption: 'Zamena kabine, komande i kompletne el. instalacije',
+                    },
+                    {
+                        id: '1',
+                        src: require('@/assets/images/gallery/lift2.jpg'),
+                        thumbnail: require('@/assets/images/gallery/lift2.jpg'),
+                        alt: 'Zamena kabine, komande i kompletne el instalacije',
+                        caption: 'Zamena kabine, komande i kompletne el. instalacije'
+                    },
+                    {
+                        id: '2',
+                        src: require('@/assets/images/gallery/lift3.jpg'),
+                        thumbnail: require('@/assets/images/gallery/lift3.jpg'),
+                        alt: 'Zamena prilaznih vrata',
+                        caption: 'Zamena prilaznih vrata'
+                    },
+                    {
+                        id: '3',
+                        src: require('@/assets/images/gallery/lift4.jpg'),
+                        thumbnail: require('@/assets/images/gallery/lift4.jpg'),
+                        alt: 'Zamena kabinskih automatskih vrata',
+                        caption: 'Zamena kabinskih automatskih vrata'
+                    },
+                    {
+                        id: '4',
+                        src: require('@/assets/images/gallery/lift5.jpg'),
+                        thumbnail: require('@/assets/images/gallery/lift5.jpg'),
+                        alt: 'Zamena komandnih ormana',
+                        caption: 'Zamena komandnih ormana'
+                    }
+                    //currentId: null
                 ]
             };
         },

@@ -7,7 +7,7 @@ import VueGtag from "vue-gtag";
 
 require('dotenv').config()
 
-Vue.config.productionTip = false
+Vue.config.productionTip = true
 
 
 Vue.use(VueGoogleMaps, {
