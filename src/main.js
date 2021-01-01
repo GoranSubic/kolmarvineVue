@@ -3,6 +3,9 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 import * as VueGoogleMaps from 'vue2-google-maps'
+import VueGtag from "vue-gtag";
+
+require('dotenv').config()
 
 Vue.config.productionTip = false
 
@@ -30,6 +33,13 @@ Vue.use(VueGoogleMaps, {
     //// Vue.component('GmapMarker', GmapMarker)
     //// then disable the following:
     // installComponents: true,
+})
+
+Vue.use(VueGtag, {
+    config: {
+        id: process.env.VUE_APP_ENV_GOOGLE_ANALYTICS_KEY,
+        params: { anonymize_ip: true }
+    }
 })
 
 new Vue({

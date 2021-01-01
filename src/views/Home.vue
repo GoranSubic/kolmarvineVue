@@ -61,8 +61,8 @@
                 ]
             }
         },
-    components: {
-        CarouselImage
+        components: {
+            CarouselImage
         }
 }
 </script>

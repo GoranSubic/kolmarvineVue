@@ -258,6 +258,11 @@
                     },
                 ]
             }
+        },
+        methods: {
+            login() {
+                this.$gtag.event('login', { method: 'Google' })
+            }
         }
     }
 </script>
