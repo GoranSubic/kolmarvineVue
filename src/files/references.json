@@ -1,135 +1,136 @@
-refer_buildings: 
 {
-	{
-		id: 0,
-		building: "Bulevar Oslobođenja 35",
-		work: "zamena kabine"
-	},
-	{
-		id: 1,
-		building: "Bulevar Oslobođenja 37",
-		work: "komanda i kabina"
-	},
-	{
-		id: 2,
-		building: "Bulevar Oslobođenja 145",
-		work: "komanda i kabina"
-	},
-	{
-		id: 3,
-		building: "Bulevar Oslobođenja 149",
-		work: "zamena kabine"
-	},
-	{
-		id: 4,
-		building: "Bulevar Oslobođenja 151",
-		work: "zamena kabine"
-	},
-	{
-		id: 5,
-		building: "Bulevar Oslobođenja 66a",
-		work: "ugradnja bus vrata"
-	},
-	{
-		id: 6,
-		building: "Cara Lazara 83",
-		work: "komanda i kabina"
-	},
-	{
-		id: 7,
-		building: "Cankareva 13",
-		work: "zamena automatskih vrata"
-	},
-	{
-		id: 8,
-		building: "Cara Dušana 57",
-		work: "zamena komande"
-	},
-	{
-		id: 9,
-		building: "Cara Dušana 82",
-		work: "zamena komande"
-	},
-	{
-		id: 10,
-		building: "Ilija Ognjanovića 4",
-		work: "zamena komande i ugradnja bus vrata"
-	},
-	{
-		id: 11,
-		building: "Kraljevića Marka 20",
-		work: "zamena automatskih vrata"
-	},
-	{
-		id: 12,
-		building: "Kraljevića Marka 60",
-		work: "zamena komande"
-	},
-	{
-		id: 13,
-		building: "Hadži Ruvimova 51",
-		work: "zamena komande i automatskih vrata"
-	},
-	{
-		id: 14,
-		building: "Slovačka 15",
-		work: "zamena automatskih vrata"
-	},
-	{
-		id: 15,
-		building: "Turgenjeva 15",
-		work: "zamena komande i ugradnja automatskih vrata"
-	},
-	{
-		id: 16,
-		building: "Jovana Subitića 15",
-		work: "zamena komande i automatskih vrata"
-	},
-	{
-		id: 17,
-		building: "Rumenačka 43",
-		work: "zamena komande i automatskih vrata"
-	},
-	{
-		id: 18,
-		building: "Braće Dronjak 7",
-		work: "zamena komande i ugradnja bus vrata"
-	},
-	{
-		id: 19,
-		building: "Maksima Gorkog 1",
-		work: "zamena prilaznih vrata"
-	},
-	{
-		id: 20,
-		building: "Maksima Gorkog 1a",
-		work: "zamena komande"
-	},
-	{
-		id: 21,
-		building: "Žarka Vasiljevića 18",
-		work: "zamena komande"
-	},
-	{
-		id: 22,
-		building: "Kosančić Ivana 8",
-		work: "zamena komande"
-	},
-},
-refer_firms: {
-	{
-		id: 0,
-		firm: "Biospringer Senta",
-		work: "zamena komande"
-	},
-	{
-		id: 1,
-		firm: "Agrovojvodina Novi Sad",
-		work: "zamena komande"
-	},
-	{
-		id: 2,
-		firm: "TDM Voće Bačka Palanka",
-		work: "zamena komande"
-	},
+	"refer_buildings": [
+		{
+			"id": 0,
+			"building": "Bulevar Oslobođenja 35",
+			"work": "zamena kabine"
+		},
+		{
+			"id": 1,
+			"building": "Bulevar Oslobođenja 37",
+			"work": "komanda i kabina"
+		},
+		{
+			"id": 2,
+			"building": "Bulevar Oslobođenja 145",
+			"work": "komanda i kabina"
+		},
+		{
+			"id": 3,
+			"building": "Bulevar Oslobođenja 149",
+			"work": "zamena kabine"
+		},
+		{
+			"id": 4,
+			"building": "Bulevar Oslobođenja 151",
+			"work": "zamena kabine"
+		},
+		{
+			"id": 5,
+			"building": "Bulevar Oslobođenja 66a",
+			"work": "ugradnja bus vrata"
+		},
+		{
+			"id": 6,
+			"building": "Cara Lazara 83",
+			"work": "komanda i kabina"
+		},
+		{
+			"id": 7,
+			"building": "Cankareva 13",
+			"work": "zamena automatskih vrata"
+		},
+		{
+			"id": 8,
+			"building": "Cara Dušana 57",
+			"work": "zamena komande"
+		},
+		{
+			"id": 9,
+			"building": "Cara Dušana 82",
+			"work": "zamena komande"
+		},
+		{
+			"id": 10,
+			"building": "Ilija Ognjanovića 4",
+			"work": "zamena komande i ugradnja bus vrata"
+		},
+		{
+			"id": 11,
+			"building": "Kraljevića Marka 20",
+			"work": "zamena automatskih vrata"
+		},
+		{
+			"id": 12,
+			"building": "Kraljevića Marka 60",
+			"work": "zamena komande"
+		},
+		{
+			"id": 13,
+			"building": "Hadži Ruvimova 51",
+			"work": "zamena komande i automatskih vrata"
+		},
+		{
+			"id": 14,
+			"building": "Slovačka 15",
+			"work": "zamena automatskih vrata"
+		},
+		{
+			"id": 15,
+			"building": "Turgenjeva 15",
+			"work": "zamena komande i ugradnja automatskih vrata"
+		},
+		{
+			"id": 16,
+			"building": "Jovana Subitića 15",
+			"work": "zamena komande i automatskih vrata"
+		},
+		{
+			"id": 17,
+			"building": "Rumenačka 43",
+			"work": "zamena komande i automatskih vrata"
+		},
+		{
+			"id": 18,
+			"building": "Braće Dronjak 7",
+			"work": "zamena komande i ugradnja bus vrata"
+		},
+		{
+			"id": 19,
+			"building": "Maksima Gorkog 1",
+			"work": "zamena prilaznih vrata"
+		},
+		{
+			"id": 20,
+			"building": "Maksima Gorkog 1a",
+			"work": "zamena komande"
+		},
+		{
+			"id": 21,
+			"building": "Žarka Vasiljevića 18",
+			"work": "zamena komande"
+		},
+		{
+			"id": 22,
+			"building": "Kosančić Ivana 8",
+			"work": "zamena komande"
+		}
+	], 
+	"refer_firms": [
+		{
+			"id": 0,
+			"firm": "Biospringer Senta",
+			"work": "zamena komande"
+		},
+		{
+			"id": 1,
+			"firm": "Agrovojvodina Novi Sad",
+			"work": "zamena komande"
+		},
+		{
+			"id": 2,
+			"firm": "TDM Voće Bačka Palanka",
+			"work": "zamena komande"
+		}
+	]
 }
