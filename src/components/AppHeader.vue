@@ -64,16 +64,16 @@
     }
 
     .navbar-brand {
-        /*content: url("../media/logo.png");*/
-        width: 65px;
+        content: url("~@/assets/logo.png");
+        width: 120px;
         display: inline-block;
-        opacity: 0.8;
+        opacity: 1;
         padding: 0 10px 0 10px;
     }
 
     #navbarSupportedContent {
         padding-left: 10px;
-        margin-left: 50px;
+        margin-left: 20px;
     }
     #navbarSupportedContent li {
         margin-left: 30px;

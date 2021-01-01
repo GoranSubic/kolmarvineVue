@@ -69,6 +69,14 @@
                         name: 'description',
                         //content: postMethod(),
                         content: "Mi smo malo preduzeće sa velikim potencijalom što potvrđuje veliki broj zadovoljnih klijenata.",
+                    },
+                    {
+                        name: 'keywords',
+                        content: "lift, ugradnja, zamena, kabine, kabina, automatskih, bus, vrata, komande, lifta, izvođača, radova",
+                    },
+                    {
+                        name: 'robots',
+                        content: "index, follow",
                     }
                 ]
             }

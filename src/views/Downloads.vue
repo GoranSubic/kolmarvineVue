@@ -21,7 +21,22 @@
         name: 'Downloads',
         metaInfo: {
             // title will be injected into parent titleTemplate
-            title: 'Dokumenta'
+            title: 'Dokumenta',
+            meta: [
+                {
+                    name: 'description',
+                    //content: postMethod(),
+                    content: "Pogledajte i preuzmite korisničko uputstvo",
+                },
+                {
+                    name: 'keywords',
+                    content: "korisničko, uputstvo, lift, ugradnja, zamena, kabine, kabina, automatskih, bus, vrata, komande, lifta, izvođača, radova",
+                },
+                {
+                    name: 'robots',
+                    content: "noindex, nofollow",
+                }
+            ]
         },
         props: {
             downloads: Array

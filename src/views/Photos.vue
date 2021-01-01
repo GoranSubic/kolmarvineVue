@@ -1,6 +1,6 @@
 <template>
     <div class="photos container" id="parentScrollelm">
-        <carousel-image pageTitle="Fotografije"></carousel-image>
+        <carousel-image pageTitle="Fotografije radova"></carousel-image>
         <div id="scrollelm">
             <div class="row">
                 <div class="col-md-12 content">
@@ -21,7 +21,22 @@
         name: 'Photos',
         metaInfo: {
             // title will be injected into parent titleTemplate
-            title: 'Fotografije'
+            title: 'Fotografije radova',
+            meta: [
+                {
+                    name: 'description',
+                    //content: postMethod(),
+                    content: "Fotografije radova",
+                },
+                {
+                    name: 'keywords',
+                    content: "Fotografije, radova, lift, ugradnja, zamena, kabine, kabina, automatskih, bus, vrata, komande, lifta, izvo?a?a, radova",
+                },
+                {
+                    name: 'robots',
+                    content: "noindex, nofollow",
+                }
+            ]
         },
         data() {
             return {

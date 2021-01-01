@@ -55,6 +55,14 @@
                             Telefon: 064/101-97-90
                             Email: kolmar.vine@gmail.com
                             Radno vreme: Pon-Ned 24h`,
+                    },
+                    {
+                        name: 'keywords',
+                        content: "kontakt, telefon, vlasnik, email, radno vreme, lift, ",
+                    },
+                    {
+                        name: 'robots',
+                        content: "index, follow",
                     }
                 ]
             }

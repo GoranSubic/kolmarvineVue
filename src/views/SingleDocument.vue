@@ -25,7 +25,22 @@
         name: "SingleDocument",
         metaInfo: {
             // title will be injected into parent titleTemplate
-            title: 'Dokument'
+            title: 'Dokument',
+            meta: [
+                {
+                    name: 'description',
+                    //content: postMethod(),
+                    content: "Dokument za preuzimanje.",
+                },
+                {
+                    name: 'keywords',
+                    content: "lift, dokument, uputstvo, preuzimanje",
+                },
+                {
+                    name: 'robots',
+                    content: "noindex, nofollow",
+                }
+            ]
         },
         props: {
             downloads: Array

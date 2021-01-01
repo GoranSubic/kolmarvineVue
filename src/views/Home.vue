@@ -48,7 +48,15 @@
                     {
                         name: 'description',
                         //content: postMethod(),
-                        content: this.postdata[2].body.slice(0, 113),
+                        content: this.postdata[0].body.slice(0, 232),
+                    },
+                    {
+                        name: 'keywords',
+                        content: "lift, remont, modernizacija, popravka, popravke, servis, održavanje, ugradnja, zamena, kabine, kabina, automatskih, bus, vrata, komande, lifta, izvo?a?a, radova",
+                    },
+                    {
+                        name: 'robots',
+                        content: "index, follow",
                     }
                 ]
             }

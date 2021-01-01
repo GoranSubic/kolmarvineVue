@@ -23,9 +23,34 @@
         },
         metaInfo: {
             // if no subcomponents specify a metaInfo.title, this title will be used
-            title: 'Kolmar Vine Liftovi',
+            title: 'Kolmar Vine Lift',
             // all titles will be injected into this template
-            titleTemplate: '%s | Kolmar Vine Liftovi'
+            titleTemplate: '%s | Kolmar Vine Lift',
+            meta: [
+                {
+                    name: 'author',
+                    content: "Goran Subić",
+                },
+
+                // OpenGraph data (Most widely used)
+                { property: 'og:title', content: 'Kolmar Vine Lift' },
+                { property: 'og:site_name', content: 'Kolmar Vine Lift' },
+                { property: 'og:type', content: 'website' },
+                { property: 'og:url', content: 'https://kolmarvine.rs' },
+                { property: 'og:image', content: 'https://kolmarvine.rs/kolmarvine.png' },
+                {
+                    property: 'og:description',
+                    content: 'Kolmar Vine liftovi su orijentisani ka modernizaciji i remontu svih tipova liftova. Radimo montažu novih i servis postojećih.'
+                },
+
+                // Google / Schema.org markup:
+                { itemprop: 'name', content: 'Kolmar Vine Lift' },
+                {
+                    itemprop: 'description',
+                    content: 'Kolmar Vine liftovi su orijentisani ka modernizaciji i remontu svih tipova liftova. Radimo montažu novih i servis postojećih.'
+                },
+                { itemprop: 'image', content: 'https://kolmarvine.rs/kolmarvine.png' }
+            ]
         },
         data: function() {
             return {
