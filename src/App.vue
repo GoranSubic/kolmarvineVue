@@ -52,11 +52,11 @@
                 ],
                 about_data: [
                     {
-                        id: 0,
+                        id: 40,
                         info: "Kolmar Vine je preduzeće koje je osnovano od strane Vince Daniela, preduzetnika i izvođača radova sa dugogodišnjim iskustvom u radu na liftovima.",
                     },
                     {
-                        id: 1,
+                        id: 41,
                         info: "Mi smo malo preduzeće sa velikim potencijalom što potvrđuje veliki broj zadovoljnih klijenata.",
                     },
                 ],
@@ -179,17 +179,17 @@
                 ],
                 refer_firms: [
                     {
-                        id: 0,
+                        id: 30,
                         title: "Biospringer Senta",
                         work: "zamena komande"
                     },
                     {
-                        id: 1,
+                        id: 31,
                         title: "Agrovojvodina Novi Sad",
                         work: "zamena komande"
                     },
                     {
-                        id: 2,
+                        id: 32,
                         title: "TDM Voće Bačka Palanka",
                         work: "zamena komande"
                     },
