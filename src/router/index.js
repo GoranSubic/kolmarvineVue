@@ -1,9 +1,10 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Home from '../views/Home.vue'
+//import Home from '../views/Home.vue'
+//import Photos from '../views/Photos.vue'
+//import Contact from '../views/Contact.vue'
+//import About from '../views/About.vue'
 import Downloads from '../views/Downloads.vue'
-import Photos from '../views/Photos.vue'
-import Contact from '../views/Contact.vue'
 import SingleDocument from '../views/SingleDocument.vue'
 import VueMeta from 'vue-meta'
 
@@ -17,17 +18,20 @@ const routes = [
   {
     path: '/',
     name: 'Pocetna',
-    component: Home
+    //component: Home
+    component: () => import('../views/Home.vue')
     },
     {
         path: '/kontakt',
         name: 'Kontakt',
-        component: Contact
+        //component: Contact
+        component: () => import('../views/Contact.vue')
     },
     {
         path: '/fotografije',
         name: 'Fotografije',
-        component: Photos
+        //component: Photos
+        component: () => import('../views/Photos.vue')
     },
     {
         path: '/dokumenta',
@@ -42,10 +46,11 @@ const routes = [
     {
     path: '/onama',
     name: 'ONama',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
+    //// route level code-splitting
+    //// this generates a separate chunk (about.[hash].js) for this route
+    //// which is lazy-loaded when the route is visited.
     component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
+    //component: About
     }
 ]
 

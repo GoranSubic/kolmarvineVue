@@ -26,22 +26,22 @@
                 {
                     name: 'description',
                     //content: postMethod(),
-                    content: "Fotografije radova",
+                    content: 'Fotografije radova. Zamena kabine, komande i kompletne el instalacije. Zamena komandnih ormana.',
                 },
                 {
                     name: 'keywords',
-                    content: "Fotografije, radova, lift, ugradnja, zamena, kabine, kabina, automatskih, bus, vrata, komande, lifta, izvo?a?a, radova",
+                    content: "Fotografije, radova, lift, ugradnja, zamena, kabine, kabina, automatskih, bus, vrata, komande, lifta, izvo?a?a, radova, elektro, el instalacije, ormana",
                 },
                 {
                     name: 'robots',
-                    content: "noindex, nofollow",
+                    content: 'index, follow',
                 }
             ]
         },
         data() {
             return {
-                width: 600,
-                height: 400,
+                width: 800,
+                height: 533,
                 responsive: true,
                 disableImageClick: false,
                 items: [
@@ -97,7 +97,7 @@
         margin: 0 0 0 20% !important;
     }
     #scrollelm {
-        margin: 30vh auto 0 auto;
+        margin: 30vh auto 3vh auto;
         font-size: 1.5em;
         line-height: 1em;
     }
